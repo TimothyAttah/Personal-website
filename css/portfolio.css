@@ -313,6 +313,14 @@
   right: 15px;
 }
 
+@media (max-width:420px){
+  .portfolio-section .portfolio-item {
+     flex: auto;
+  max-width: 95%;
+  margin: auto;
+  }
+}
+
 /************** Testimonial section************* */
 .testimonial-section{
   padding: 80px 0 80px;
@@ -474,4 +482,12 @@
   max-width: 100%;
   text-align: right;
   padding: 0 15px;
+}
+
+@media (max-width:420px){
+  .contact-section .contact-item{
+     flex: auto;
+  max-width: 95%;
+  margin: auto;
+  }
 }
